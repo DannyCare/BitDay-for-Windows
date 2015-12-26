@@ -84,28 +84,40 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01-Morning.png">
+    <Content Include="01-Early-Morning.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="02-Late-Morning.png">
+    <Content Include="02-Mid-Morning.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="03-Afternoon.png">
+    <Content Include="03-Late-Morning.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="04-Late-Afternoon.png">
+    <Content Include="04-Early-Afternoon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="05-Evening.png">
+    <Content Include="05-Mid-Afternoon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="06-Late-Evening.png">
+    <Content Include="06-Late-Afternoon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="07-Night.png">
+    <Content Include="07-Early-Evening.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="08-Late-Night.png">
+    <Content Include="08-Mid-Evening.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="09-Late-Evening.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="10-Early-Night.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="11-Mid-Night.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="12-Late-Night.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <EmbeddedResource Include="favicon.ico" />
@@ -131,7 +143,7 @@
     <PreBuildEvent>
     </PreBuildEvent>
   </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
